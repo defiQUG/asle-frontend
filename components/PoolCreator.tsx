@@ -45,7 +45,6 @@ export function PoolCreator() {
           parseEther(virtualQuoteReserve || '0'),
           BigInt(Math.floor(parseFloat(k) * 1e18)),
           parseEther(oraclePrice),
-          '0x0000000000000000000000000000000000000000' as `0x${string}` // Oracle address (optional)
         ],
       })
       toast.success('Pool creation transaction submitted')

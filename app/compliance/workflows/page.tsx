@@ -20,6 +20,7 @@ interface WorkflowExecution {
   currentStep: number
   status: string
   results: any
+  createdAt: string
 }
 
 export default function WorkflowsPage() {
